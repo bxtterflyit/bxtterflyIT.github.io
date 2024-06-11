@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="source/styles/mycss.css">
+    <link rel="stylesheet" href="source/styles/bgvideo.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="source/files/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="source/files/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="source/files/icon/favicon-16x16.png">
+    <link rel="manifest" href="source/files/icon/site.webmanifest">
+    <title>bxtrfly</title>
+</head>
+
+<body>
+    <!-- Навигационая панель -->
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/"><img src="source/files/icon/favicon-32x32.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="Author.html">About the author</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="pricing.html">Pricing</a></li>
+                            </ul>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Основной контент -->
+
+    <section>
+        <div class="bgvideo">
+            <video src="source/files/icon/5721849-uhd_2560_1440_30fps.mp4" type="video.mp4" autoplay muted loop></video>
+            <div class="effect"></div>
+            <div class="video-text">
+                <h1>Future's here</h1>
+            </div>
+        </div>
+
+
+        <div class="container-fluid mt-4">
+            <div class="row">
+                <div class="col-lg-1">
+                </div>
+
+                <div class="col-lg-8 col-md-12">
+                    <div class="row">
+
+                        <div id="carouselExampleIndicators" class="carousel slide">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="d-block w-100">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6">
+                                                <img src="source/images/слайд1 .jpg" class="w-100" alt="...">
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 slide-text">
+                                                <img src="source/images/section-programming.png" alt="">
+                                                <p>Курси: Back-end, Front-end, Full-stack, Machine Learning та DevOps
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-block w-100">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6">
+                                                <img src="source/images/слайд2 .jpg" class="w-100" alt="...">
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 slide-text">
+                                                <img src="source/images/section-testing.png" alt="">
+                                                <p>Курси тестувальників: QA Manual та QA Automation на Java, Python та
+                                                    JavaScipt, а також підготовка до сертифікації ISTQB</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-block w-100">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6">
+                                                <img src="source/images/слайд3 .jpg" class="w-100" alt="...">
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 slide-text">
+                                                <img src="source/images/" alt="">
+                                                <p>Курси менеджменту: Project та Product Management, Бізнес-аналізу,
+                                                    Game дизайну, а також Рекрутингу та HR</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12 text-center mt-4">
+                        <button type="button" class="btn btn-outline-light btn-lg my-4">See More</button>
+                    </div>
+                    <div class="col-lg-12 col-md-12 text-center">
+                        <a class="call-anim" href="https://t.me/bxtterflyIT"><img style="width: 50px;"
+                                src="source/files/icon/1524233.webp" alt="..."></a>
+                    </div>
+                </div>
+
+                <!-- Sidebar -->
+
+                <div class="col-lg-3 col-md-12">
+                    <div class="row px-2">
+                        <div class="col-lg-12 sidebar my-4">
+                            <div class="img">
+                                <img src="source/images/download.png" alt="">
+                                <p>В рамках курса Front-end Basic студенты без опыта в разработке изучают HTML и CSS.
+                                    Нарабатывают практические навыки в верстке адаптивных сайтов, знакомятся с пре- и
+                                    постпроцессорами. В программу курса также входят CSS-фреймворки. <a
+                                        href="https://ithillel.ua/courses/front-end-basic">Learn More>>> </a></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 sidebar my-4">
+                            <div class="img">
+                                <img src="source/images/js5.png" alt="">
+                                <p>На курсі Випускники оволодівають JavaScript на достатньому рівні, щоб писати скрипти,
+                                    форми, вчаться працювати з AJAX, а також налаштовувати збірку проекту. Курс дозволяє
+                                    претендувати на вакансії Junior Front-End Developer. <a
+                                        href="https://ithillel.ua/courses/front-end-pro">Learn More>>> </a></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 sidebar my-4">
+                            <div class="img">
+                                <img src="source/images/js.png" alt="">
+                                <p>Курс присвячений основам програмування мовою JavaScript. Він підійде для тих, хто
+                                    хоче почати програмувати, або для тих, хто вже має досвід у розробці та хоче
+                                    структурувати та поглибити свої знання JavaScript. <a
+                                        href="https://ithillel.ua/courses/javascript-basic">Learn More>>> </a></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 sidebar my-4">
+                            <div class="img">
+                                <img src="source/images/nodejs.png" alt="">
+                                <p>Мета курсу Node.js, крім вивчення самої програмної платформи, перестати боятися
+                                    «Back-end» і стати ближчими до поняття «Full-Stack». <a
+                                        href="https://ithillel.ua/courses/node-js">Learn More>>> </a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Служебная информация -->
+
+    <footer class="mt-4">
+        <div class="conteiner-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 footer-text text-center">
+                    <p>All Rights Reserved 2024</p>
+                </div>
+                <div class="col-lg-4 col-md-12 footer-text text-center">
+                    <p>Contacts<br>Job<br>Our Team</p>
+                </div>
+                <div class="col-lg-4 col-md-12 media-links">
+                    <a href="https://t.me/Coldsiemensz"><img style="width: 50px;"
+                            src="source/files/icon/telegram-icon-2048x2048-qq8ggh79.png" alt="..."></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

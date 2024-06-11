@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=montserrat&display=swap');
+
+body {
+    background: linear-gradient(90deg, #e4e1e1 0%, #5695e9 100%);
+    font-family: montserrat, serif;
+}
+
+p {
+    color: #ffffff;
+}
+
+.nav-link {
+    color: aquamarine;
+}
+
+.nav-item .nav-link.active {
+    color: aquamarine;
+}
+
+.navbar-toggler {
+    background-color: aquamarine;
+}
+
+.sidebar {
+    color: rgb(255, 255, 255);
+    background: linear-gradient(250deg, #e4e1e1 0%, #5695e9 100%);
+}
+
+.card {
+    background-color: rgb(188, 211, 236);
+    color: #ffffff;
+}
+
+.slide-text,
+.footer-text {
+    color: #ffffff;
+    margin: auto auto;
+
+}
+
+footer,
+.btn {
+    background: linear-gradient(250deg, #e4e1e1 0%, #5695e9 100%);
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-anim {
+    animation: myAnim 2s ease 0s 1 normal forwards;
+}
+
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateY(-65px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateY(-28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateY(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+}
+
+.ezz-img {
+    border: 1px;
+}
+
+.ezz-center {
+    display: block;
+    margin: auto;
+    padding-top: 200px;
+    padding-right: 500px;
+}
+
+.img-center {
+    max-width: 25px;
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+    display: none;
+    }
+}

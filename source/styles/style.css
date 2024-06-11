@@ -1,0 +1,261 @@
+body {
+    background: #f6f6fa;
+    padding: 40px 40px 40px 40px;
+    font-family: "Montserrat", sans-serif;
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.Wrapper {
+    background: #ffffff;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main-content {
+    padding-left: 80px;
+    padding-top: 80px;
+    padding-right: 40px;
+    padding-bottom: 80px;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    background: #e0ebfe;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    width: 370px;
+}
+
+.sidebar-content {
+    padding-left: 40px;
+    padding-top: 80px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.contacts-title {
+    font-weight: 700;
+    font-size: 22px;
+    color: #161d2a;
+    line-height: normal;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.contacts-type {
+    color: #161d2a;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-right: 8px;
+}
+
+.contacts-link {
+    color: #2979ff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: underline;
+}
+
+.contacts-item {
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.contacts-conteiner {
+    margin-bottom: 40px;
+}
+
+.tech-conteiner {
+    margin-bottom: 40px;
+}
+
+.tech-title {
+    color: #161d2a;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.tech-list {
+    padding-left: 25px;
+}
+
+.tech-list-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #161d2a;
+}
+
+.soft-conteiner {
+    margin-bottom: 40px;
+}
+
+.soft-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #161d2a;
+}
+
+.soft-list {
+    padding-left: 25px;
+}
+
+.soft-list-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #161d2a;
+}
+
+.my-profession {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.my-name {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.my-descr {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.my-info {
+    margin-bottom: 40px;
+}
+
+.my-projects {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.my-projects-item {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+}
+
+.my-projects-list {
+    padding-left: 17px;
+}
+
+.my-projects-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #005fff;
+}
+
+.my-projects-tech {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.my-projects-conteiner {
+    margin-bottom: 40px;
+}
+
+.work-experience {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.work-company {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.time-work {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #a8a8a8;
+    margin-bottom: 8px;
+}
+
+.work-separator {
+    color: #000;
+}
+
+.duties-list {
+    padding-left: 16px;
+}
+
+.duties-item {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+
+}
+
+.work-conteiner {
+    margin-bottom: 12px;
+}
+
+.my-work-conteiner {
+    margin-bottom: 40px;
+}
+
+.education-work {
+    font-weight: 700;
+    font-size: 22px;
+    color: #000;
+}
+
+.education-college {
+    font-weight: 700;
+    font-size: 16px;
+    color: #6d9bf5;
+    margin-bottom: 8px;
+}
+
+.education-faсulty {
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 8px;
+}
